@@ -1,6 +1,8 @@
 # Data-Breaches-Analysis
 
 For the Code Louisville data analysis project, I wanted to look at some data related to cybersecurity. I was able to find and narrow my choice of data with the assistance of my mentors. I had to create an account with Kaggle to download the dataset. 
+ 
+Note: I started working on the project using python 3.10.7. Unfortuanely, I started to experience some non-related  python complications wtih my machine.Later, I tried to install python 3.11.0 after a fresh os installation. This version of python wasn't running smoothly when I tried to run my Jupyter notebook that consists of my code. In the end, I installed anaconda which it utilizes python 3.9.13.
 
 Special Instructions: The pre-release version of Jupyter needs to be installed within Visual Studio Code.
 
