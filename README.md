@@ -1,6 +1,10 @@
 # Data-Breaches-Analysis
 
 For the Code Louisville data analysis project, I wanted to look at some data related to cybersecurity. I was able to find and narrow my choice of data with the assistance of my mentors. I had to create an account with Kaggle to download the dataset. 
+
+Cybersecurity has become an fasincinating field to me since I deep dive into the world of computers. The scope of an single breach is so massive, it could be overwhleming and it was at one point during this project. Companies typically like to keep tight lid when they get breached. In some cases, they remain secretive even when the breach becomes public knowledge.
+
+I wanted to see if my interpertation deviates from the original analysis. During the data cleanup process, I combined some categories which altered the initial results. For example, I combined 'lost/stolen media' and 'lost/stolen computer' into 'lost/stolen'. 
  
 Note: I started working on the project using python 3.10.7. Unfortuanely, I started to experience some non-related  python complications wtih my machine.Later, I tried to install python 3.11.0 after a fresh os installation. This version of python wasn't running smoothly when I tried to run my Jupyter notebook that consists of my code. In the end, I installed anaconda which it utilizes python 3.9.13.
 
@@ -19,6 +23,8 @@ Special Instructions: The pre-release version of Jupyter needs to be installed w
 * Made 2 plots with seaborn. The first graph represents the number of occurrences vs the breach's method while the second graph represents the number of occurences vs the type of organization.
 * Wrote in Jupyter's markdown cells explaining my thought process and code.
 
+Source: https://www.kaggle.com/datasets/hishaamarmghan/list-of-top-data-breaches-2004-2021 
+
 <u>Description of Data</u><br>
 The dataset contains the following columns:
 - Entity 
@@ -31,6 +37,7 @@ The dataset contains the following columns:
   * What sector did the organization belong to?
 - Method
   * How did the breach happen? 
+
 
  
 
