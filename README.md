@@ -28,6 +28,8 @@ Special Instructions: The pre-release version of Jupyter needs to be installed w
 * Read in data from a local csv. Then each column of the dataframe was transformed into their own series.
 * Utilized pandas's built-in functions to remove entries or replace values. For example, I dropped the entries that contain 'unknown' as their method for the breach.
 * Wrote custom functions to assist with cleaning up the dataset. For example, I created a function that can replace a list of strings with a given string because there were too many similarities amongst the categories within the dataset.
+* Utilized python's sum, min, and max functions to give an insight on the scope of compromised records.
+* Imported the statistics package and utilized the mean function on the 'records' series. 
 * Made 2 plots with seaborn. The first graph represents the number of occurrences vs the breach's method while the second graph represents the number of occurences vs the type of organization.
 * Wrote in Jupyter's markdown cells explaining my thought process and code.
 
