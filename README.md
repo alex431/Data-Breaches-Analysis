@@ -18,13 +18,13 @@ Note: I started working on the project using python 3.10.7. Unfortuanely, I star
 
 Special Instructions: The pre-release version of Jupyter needs to be installed within Visual Studio Code.
 
-<u>Required packages to install</u>
+## Required Packages to Install
 * Pandas
 * Seaborn
 * Matplotlib
 * Statistics
 
-<u>Current implemented features</u>
+## Current Implemented Features
 * Read in data from a local csv. Then each column of the dataframe was transformed into their own series.
 * Utilized pandas's built-in functions to remove entries or replace values. For example, I dropped the entries that contain 'unknown' as their method for the breach.
 * Wrote custom functions to assist with cleaning up the dataset. For example, I created a function that can replace a list of strings with a given string because there were too many similarities amongst the categories within the dataset.
@@ -35,7 +35,7 @@ Special Instructions: The pre-release version of Jupyter needs to be installed w
 
 Source: https://www.kaggle.com/datasets/hishaamarmghan/list-of-top-data-breaches-2004-2021 
 
-<u>Description of Data</u><br>
+## Description of Data
 The dataset contains the following columns:
 - Entity 
   * The name of the company, organization, or institute
